@@ -15,7 +15,7 @@ const greet = (timeString) => {
   parsedTime = parseInt(time[0])
   if(time < 12) { return "Good Morning" }
   if (time < 17) { return "Good Afternoon" }
-  else { return "Good Evening" }
+  return "Good Evening" 
 }
 
 const greeting = document.getElementById("greeting")
