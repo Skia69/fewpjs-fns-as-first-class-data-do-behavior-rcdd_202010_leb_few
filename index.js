@@ -19,3 +19,6 @@ const greet = (timeString) => {
 }
 
 /* Write your implementation of displayMessage() */
+displayMessage(arg) {
+  
+}
