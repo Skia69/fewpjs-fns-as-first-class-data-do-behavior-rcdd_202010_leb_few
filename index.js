@@ -14,7 +14,7 @@ const greet = (timeString) => {
  let time = timeString.split(':').map(t => parseInt(t))
   parsedTime = parseInt(time[0])
   if(time < 12) return "Good Morning" 
-  if (time < 17) return "Good Afternoon" 
+  if (time > 17) return "Good Evening" 
   return "Good Evening" 
 }
 
