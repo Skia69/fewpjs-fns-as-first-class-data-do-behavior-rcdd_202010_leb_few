@@ -11,7 +11,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 const greet = (timeString) => {
- let time = timeString.split(':')
+ let time = timeString.split(':').map(t => parseInt(t))
   parsedTime = parseInt(time[0])
   if(time < 12) { return "Good Morning" }
   else if (time > 12 && time < 17) { return "Good Afternoon" }
