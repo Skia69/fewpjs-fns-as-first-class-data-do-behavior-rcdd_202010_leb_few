@@ -24,5 +24,5 @@ const greeting = document.getElementById("greeting")
 
 /* Write your implementation of displayMessage() */
 const displayMessage = (arg) => {
-  greeting.textContent = arg;
+  greeting.innerText = arg;
 }
