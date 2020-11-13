@@ -20,9 +20,9 @@ const greet = (timeString) => {
   return "Good Afternoon" 
 }
 
-const greeting = document.getElementById("greeting")
 
 /* Write your implementation of displayMessage() */
-const displayMessage = (arg) => {
-  greeting.innerText = arg;
+const displayMessage = (message) => {
+const greeting = document.getElementById("greeting")
+  greeting.innerText = message;
 }
