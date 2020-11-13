@@ -11,7 +11,8 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 const greet = (timeString) => {
-  timeString.split()
+const time = timeString.split(':')
+  time[0] < 
 }
 
 /* Write your implementation of displayMessage() */
