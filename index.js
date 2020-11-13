@@ -13,10 +13,9 @@ function handleClick(e) {
 const greet = (timeString) => {
   let time = timeString.split(':').map(t => parseInt(t, 10))
   let hours = time[0]
-  hours < 12 ?  "Good Morning" : 
-  if (hours > 17) 
-    { return "Good Evening" } 
-  return "Good Afternoon" 
+  hours < 12 ?  "Good Morning" 
+  : hours > 17 ? "Good Evening" 
+  : "Good Afternoon"
 }
 
 
