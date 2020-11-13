@@ -13,7 +13,7 @@ function handleClick(e) {
 const greet = (timeString) => {
   let time = timeString.split(':').map(t => parseInt(t, 10))
   let hours = time[0]
-  return hours < 12 ?"Good Morning" 
+  return hours < 12 ? "Good Morning" 
   : hours > 17 ? "Good Evening" 
   : "Good Afternoon"
 }
@@ -21,6 +21,5 @@ const greet = (timeString) => {
 
 /* Write your implementation of displayMessage() */
 const displayMessage = (message) => {
-const greeting = document.getElementById("greeting")
-  greeting.innerText = message;
+  document.getElementById("greeting").innerText = message;
 }
